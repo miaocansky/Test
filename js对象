@@ -1,0 +1,10 @@
+//工厂模式
+function createObject(name) {
+	var obj =new Object();
+	obj.name =name;
+	obj.user=111;
+	return obj;
+}
+
+var p1 = createObject("Bob");
+console.log(p1);
